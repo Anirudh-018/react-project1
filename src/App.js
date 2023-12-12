@@ -1,8 +1,14 @@
-import './App.css';
+import "./App.css";
+import Todo from "./components/Todo";
 
 function App() {
   return (
-    <h1> hello</h1>
+    <div>
+      <h1>My todos</h1>
+      <Todo text='name 1'/>
+      <Todo text='name 2'/>
+      <Todo text='name 3'/>
+    </div>
   );
 }
 
