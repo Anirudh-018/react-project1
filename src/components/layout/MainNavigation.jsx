@@ -13,6 +13,9 @@ function MainNavigation() {
           <li>
             <Link to="/favourites">Favourites</Link>
           </li>
+          <li>
+            <Link to="/newMeetups">NewMeetups</Link>
+          </li>
         </ul>
       </nav>
     </header>
