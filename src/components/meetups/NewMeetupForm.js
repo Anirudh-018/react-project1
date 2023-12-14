@@ -2,7 +2,7 @@ import Card from "../ui/Card";
 import classes from "./NewMeetup.module.css";
 import { useRef } from "react";
 
-function NewMeetupForm() {
+function NewMeetupForm(props) {
   //listened even which is triggered on button click
 
   //user ref is used to ger the value of the referenced object
@@ -25,6 +25,7 @@ function NewMeetupForm() {
     };
     //send it to server to store in db
     console.log(meetupData);
+    props.addMeetup(meetupData)
   }
 
   return (
